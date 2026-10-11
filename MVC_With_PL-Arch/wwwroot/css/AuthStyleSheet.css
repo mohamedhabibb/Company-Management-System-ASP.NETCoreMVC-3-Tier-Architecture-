@@ -1,0 +1,80 @@
+﻿/* Styles for the Sign-Up Page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #a8d4a2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    background-color: #7baa75;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    font-size: 16px;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #a8d4a2;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+    .signup-form button:hover {
+        background-color: #8bb37d;
+    }
+
+.signup-form p {
+    color: #fff;
+    margin-top: 15px;
+}
+
+    .signup-form p a {
+        color: #fff;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        .signup-form p a:hover {
+            text-decoration: underline;
+        }
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+    .checkbox-container input[type="checkbox"] {
+        margin-right: 10px;
+    }
+
+    .checkbox-container label {
+        color: #fff;
+        font-size: 14px;
+    }

@@ -1,0 +1,19 @@
+﻿@model Department
+
+<div class="mb-3">
+    <label class="form-label" asp-for="Code"></label>
+    <input readonly class="form-control" asp-for="Code" placeholder="enter code">
+
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="Name"></label>
+    <input readonly class="form-control" asp-for="Name" placeholder="enter name">
+
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="DateOfCreation"></label>
+    <input readonly class="form-control" asp-for="DateOfCreation" placeholder="enter date of creation">
+
+</div>
+<a type="button" class="btn btn-warning" asp-route-id="@Model.Id" asp-action="Edit"> Edit</a>
+<a type="button" class="btn btn-warning" asp-action="Index"> Back to list</a>

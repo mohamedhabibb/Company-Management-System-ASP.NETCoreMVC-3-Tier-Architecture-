@@ -1,0 +1,60 @@
+﻿@model EmployeeViewModel
+@inject IDepartmentRepository departmentRepo
+@{
+    var departments = new SelectList(await departmentRepo.GetAllAsync(), "Id", "Name");
+}
+<div class="mb-3">
+    <label class="form-label" asp-for="Name"></label>
+    <input class="form-control" asp-for="Name" placeholder="enter Name">
+    <span class="text-danger" asp-validation-for="Name"></span>
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="Image"></label>
+    <input class="form-control" asp-for="Image" >
+</div>
+
+<div class="mb-3">
+    <label class="form-label" asp-for="Age"></label>
+    <input class="form-control" asp-for="Age" placeholder="enter Age">
+    <span class="text-danger" asp-validation-for="Age"></span>
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="Salary"></label>
+    <input class="form-control" asp-for="Salary" placeholder="enter Salary">
+    <span class="text-danger" asp-validation-for="Salary"></span>
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="Department"></label>
+    <select class="form-control" asp-items="departments" asp-for="DepartmentId">
+    <option value="@null" >-----Select Department------</option>
+    </select>
+    <option value="value">text</option>
+</select>
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="Address"></label>
+    <input class="form-control" asp-for="Address" placeholder="enter Address">
+    <span class="text-danger" asp-validation-for="Address"></span>
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="Email"></label>
+    <input class="form-control" asp-for="Email" placeholder="enter Email">
+    <span class="text-danger" asp-validation-for="Email"></span>
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="PhoneNumber"></label>
+    <input class="form-control" asp-for="PhoneNumber" placeholder="enter PhoneNumber">
+    <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="HireDate"></label>
+    <input class="form-control" asp-for="HireDate" placeholder="enter HireDate">
+    <span class="text-danger" asp-validation-for="HireDate"></span>
+</div>
+<div class="mb-3">
+    <label class="form-label" asp-for="IsActive"></label>
+    <input class="form-control" asp-for="IsActive" placeholder="enter IsActive">
+    <span class="text-danger" asp-validation-for="IsActive"></span>
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+<a type="button" class="btn btn-warning" asp-action="Index"> Back to list</a>

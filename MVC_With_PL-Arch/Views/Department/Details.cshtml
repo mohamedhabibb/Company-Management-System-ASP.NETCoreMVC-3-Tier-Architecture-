@@ -1,0 +1,10 @@
+﻿@model Department
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Department @Model.Name Details</h1>
+<form asp-action="Details">
+    <partial name="PartialViews/DeleteDetailsPartialView" />
+   
+</form>

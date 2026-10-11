@@ -1,0 +1,12 @@
+G:\C#&.Net\MVC_With_3layers\DAL-Arch\bin\Debug\net5.0\DAL-Arch.deps.json
+G:\C#&.Net\MVC_With_3layers\DAL-Arch\bin\Debug\net5.0\DAL-Arch.dll
+G:\C#&.Net\MVC_With_3layers\DAL-Arch\bin\Debug\net5.0\DAL-Arch.pdb
+G:\C#&.Net\MVC_With_3layers\DAL-Arch\obj\Debug\net5.0\DAL-Arch.csproj.AssemblyReference.cache
+G:\C#&.Net\MVC_With_3layers\DAL-Arch\obj\Debug\net5.0\DAL-Arch.GeneratedMSBuildEditorConfig.editorconfig
+G:\C#&.Net\MVC_With_3layers\DAL-Arch\obj\Debug\net5.0\DAL-Arch.AssemblyInfoInputs.cache
+G:\C#&.Net\MVC_With_3layers\DAL-Arch\obj\Debug\net5.0\DAL-Arch.AssemblyInfo.cs
+G:\C#&.Net\MVC_With_3layers\DAL-Arch\obj\Debug\net5.0\DAL-Arch.csproj.CoreCompileInputs.cache
+G:\C#&.Net\MVC_With_3layers\DAL-Arch\obj\Debug\net5.0\DAL-Arch.dll
+G:\C#&.Net\MVC_With_3layers\DAL-Arch\obj\Debug\net5.0\refint\DAL-Arch.dll
+G:\C#&.Net\MVC_With_3layers\DAL-Arch\obj\Debug\net5.0\DAL-Arch.pdb
+G:\C#&.Net\MVC_With_3layers\DAL-Arch\obj\Debug\net5.0\ref\DAL-Arch.dll

@@ -1,0 +1,15 @@
+G:\C#&.Net\MVC_With_3layers\BLL-Arch\bin\Debug\net5.0\BLL-Arch.deps.json
+G:\C#&.Net\MVC_With_3layers\BLL-Arch\bin\Debug\net5.0\BLL-Arch.dll
+G:\C#&.Net\MVC_With_3layers\BLL-Arch\bin\Debug\net5.0\BLL-Arch.pdb
+G:\C#&.Net\MVC_With_3layers\BLL-Arch\bin\Debug\net5.0\DAL-Arch.dll
+G:\C#&.Net\MVC_With_3layers\BLL-Arch\bin\Debug\net5.0\DAL-Arch.pdb
+G:\C#&.Net\MVC_With_3layers\BLL-Arch\obj\Debug\net5.0\BLL-Arch.csproj.AssemblyReference.cache
+G:\C#&.Net\MVC_With_3layers\BLL-Arch\obj\Debug\net5.0\BLL-Arch.GeneratedMSBuildEditorConfig.editorconfig
+G:\C#&.Net\MVC_With_3layers\BLL-Arch\obj\Debug\net5.0\BLL-Arch.AssemblyInfoInputs.cache
+G:\C#&.Net\MVC_With_3layers\BLL-Arch\obj\Debug\net5.0\BLL-Arch.AssemblyInfo.cs
+G:\C#&.Net\MVC_With_3layers\BLL-Arch\obj\Debug\net5.0\BLL-Arch.csproj.CoreCompileInputs.cache
+G:\C#&.Net\MVC_With_3layers\BLL-Arch\obj\Debug\net5.0\BLL-Arch.csproj.Up2Date
+G:\C#&.Net\MVC_With_3layers\BLL-Arch\obj\Debug\net5.0\BLL-Arch.dll
+G:\C#&.Net\MVC_With_3layers\BLL-Arch\obj\Debug\net5.0\refint\BLL-Arch.dll
+G:\C#&.Net\MVC_With_3layers\BLL-Arch\obj\Debug\net5.0\BLL-Arch.pdb
+G:\C#&.Net\MVC_With_3layers\BLL-Arch\obj\Debug\net5.0\ref\BLL-Arch.dll
